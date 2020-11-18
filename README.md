@@ -10,25 +10,23 @@ This is a web Application that links recruiters to developers.
   
 # Installing server dependencies
 
-# npm install
-Install client dependencies
-# cd DevSearch
-# cd client
-# npm install
+ npm install
+# Install client dependencies
+cd DevSearch
+cd client
+npm install
 
-Run both Express & React from root
-# npm run dev
-Build for production
-# cd client
-# npm run build
+#Run both Express & React from root
+npm run dev
+#Build for production
+cd client
+npm run build
 Test production before deploy
  
  
  ***Missing production details***
 
 # App Info
-# Author
-Clara Situma.
 
 # Designers/Architecture
 Charles Ikeh (Frontend),
