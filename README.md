@@ -5,14 +5,14 @@ This is a web Application that links recruiters to developers.
 
 # Usage
 # QUICK START 🚀
- Cloning the project:\n
+ Cloning the project:<br>
  *git clone <this url>*
   
 # Installing server dependencies
 
  npm install
 # Install client dependencies
-cd DevSearch
+cd DevSearch</br>
 cd client
 npm install
 
