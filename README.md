@@ -6,7 +6,7 @@ This is a web Application that links recruiters to developers.
 # Usage
 # QUICK START 🚀
  Cloning the project:
- #got clone <this url>
+ *git clone <this url>*
   
 # Installing server dependencies
 
