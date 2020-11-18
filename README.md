@@ -6,21 +6,20 @@ This is a web Application that links recruiters to developers.
 # Usage
 # QUICK START 🚀
  Cloning the project:<br>
- *git clone <this url>*
+      git clone <this url>
   
 # Installing server dependencies
-
- npm install
+    npm install
 # Install client dependencies
-cd DevSearch</br>
- cd client <br>
+    cd DevSearch</br>
+     cd client <br>
 npm install
 
 # Run both Express & React from root
     npm run dev<br>
 # Build for production
-   cd client<br>
-    npm run build
+      cd client<br>
+      npm run build
 Test production before deploy
  
  
