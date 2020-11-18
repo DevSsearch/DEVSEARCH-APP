@@ -16,11 +16,11 @@ cd DevSearch</br>
  cd client <br>
 npm install
 
-#Run both Express & React from root
-npm run dev<br>
-#Build for production
-cd client<br>
-npm run build
+# Run both Express & React from root
+    npm run dev<br>
+# Build for production
+   cd client<br>
+    npm run build
 Test production before deploy
  
  
