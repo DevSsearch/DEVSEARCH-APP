@@ -38,13 +38,13 @@ Clara Situma(Backend)<br>
 Lesogo Seritili<br>
 
 # Developers
-***Backend
+***Backend***
 
 Clara Situma,<br>
 Lesogo Seritili,<br>
 Timothy,<br>
 
-***Frontend
+***Frontend***
 
 Charles Ikeh (Frontend),<br>
 
