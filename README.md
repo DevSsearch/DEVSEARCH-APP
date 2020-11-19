@@ -11,14 +11,19 @@ This is a web Application that links recruiters to developers.
 # Installing server dependencies
     npm install
 # Install client dependencies
-    cd DevSearch</br>
-     cd client <br>
+    cd DevSearch
+     cd client
 npm install
 
 # Run both Express & React from root
-    npm run dev<br>
+    npm run dev
+# Contributing to Github
+       git init
+       git remote add url origin <this url>
+       git pull
+       git push
 # Build for production
-      cd client<br>
+      cd client
       npm run build
 Test production before deploy
  
