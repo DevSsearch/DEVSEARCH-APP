@@ -1,7 +1,9 @@
 # DEVSEARCH-APP version 1.0.0
 This is a web Application that links recruiters to developers.
 
-# Technologies used: Adobe XD, HTML, CSS, React, MongoDB, Express, Node
+# Technologies used: 
+
+Adobe XD, HTML, CSS, React, MongoDB, Express, Node
 
 *Version: 1.0.0
 
