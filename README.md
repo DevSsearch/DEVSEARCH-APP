@@ -17,7 +17,10 @@ Adobe XD, HTML, CSS, React, MongoDB, Express, Node
 # Install client dependencies
     cd DevSearch
      cd client
-npm install
+    npm install
+ # Running App
+       npm run client - Client side, localhost:3000
+       npm run server   -Server side, localhost:5000
 
 # Run both Express & React from root
     npm run dev
