@@ -15,7 +15,7 @@ Adobe XD, HTML, CSS, React, MongoDB, Express, Node
 # Installing server dependencies
     npm install
 # Install client dependencies
-    cd DevSearch
+
      cd client
     npm install
  # Running App
