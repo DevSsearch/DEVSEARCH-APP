@@ -1,6 +1,8 @@
 # DEVSEARCH-APP version 1.0.0
 This is a web Application that links recruiters to developers.
 
+# Technologies used: Adobe XD, HTML, CSS, React, MongoDB, Express, Node
+
 *Version: 1.0.0
 
 # Usage
@@ -35,7 +37,7 @@ Test production before deploy
 # Designers/Architecture
 Charles Ikeh (Frontend),<br>
 Clara Situma(Backend)<br>
-Lesogo Seritili<br>
+Lesogo Seritili(Backend)<br>
 
 # Developers
 ***Backend***
@@ -46,7 +48,7 @@ Timothy,<br>
 
 ***Frontend***
 
-Charles Ikeh (Frontend),<br>
+Charles Ikeh<br>
 
 # Version
 1.0.0
