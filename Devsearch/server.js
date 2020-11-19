@@ -17,7 +17,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
-
+-
 //Defining routes///
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/profiles', require('./routes/api/profiles'));
