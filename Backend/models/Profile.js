@@ -1,33 +1,21 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const ProfileSchema = new mongoose.Schema({
+const ProfileSchema = new Schema({
   user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'user'
+    type: Schema.Types.ObjectId,
+    ref: 'User'
   },
-  company: {
-    type: String
-  },
-  website: {
-    type: String
-  },
-  location: {
-    type: String
-  },
-  status: {
-    type: String,
-    required: true
-  },
+  company: String,
+  website: String,
+  location: String,
+  status: String,
   skills: {
     type: [String],
     required: true
   },
-  bio: {
-    type: String
-  },
-  githubusername: {
-    type: String
-  },
+  bio: String,
+  githubusername: String,
   experience: [
     {
       title: {
@@ -38,9 +26,7 @@ const ProfileSchema = new mongoose.Schema({
         type: String,
         required: true
       },
-      location: {
-        type: String
-      },
+      location: String,
       from: {
         type: Date,
         required: true
@@ -52,9 +38,7 @@ const ProfileSchema = new mongoose.Schema({
         type: Boolean,
         default: false
       },
-      description: {
-        type: String
-      }
+      description: String
     }
   ],
   education: [
@@ -75,39 +59,22 @@ const ProfileSchema = new mongoose.Schema({
         type: Date,
         required: true
       },
-      to: {
-        type: Date
-      },
+      to: Date,
       current: {
         type: Boolean,
         default: false
       },
-      description: {
-        type: String
-      }
+      description: String
     }
   ],
   social: {
-    youtube: {
-      type: String
-    },
-    twitter: {
-      type: String
-    },
-    facebook: {
-      type: String
-    },
-    linkedin: {
-      type: String
-    },
-    instagram: {
-      type: String
-    }
-  },
-  date: {
-    type: Date,
-    default: Date.now
+    youtube: String,
+    twitter: String,
+    facebook: String,
+    linkedin: String,
+    instagram: String,
+    github: String
   }
-});
+},{timestamps: true});
 
-module.exports = mongoose.model('profile', ProfileSchema);
+module.exports = mongoose.model('Profile', ProfileSchema);
