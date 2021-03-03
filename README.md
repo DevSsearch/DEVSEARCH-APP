@@ -41,7 +41,7 @@ Test production before deploy
 
 # Designers/Architecture
 Charles Ikeh (Frontend),<br>
-Clara Situma(Backend)<br>
+Clara Situma(Backend/FrontEnd)<br>
 Lesego Seritili(Backend)<br>
 
 # Developers
@@ -52,6 +52,8 @@ Lesego Seritili,<br>
 Timothy,<br>
 
 ***Frontend***
+Sharoz
+Daniel
 
 
 
